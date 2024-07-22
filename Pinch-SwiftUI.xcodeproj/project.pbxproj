@@ -7,18 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E3099DFF2C4E0ECD00192477 /* ControlImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3099DFE2C4E0ECD00192477 /* ControlImageView.swift */; };
+		E318C4AE2C4E8E63007C2F3B /* PageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E318C4AD2C4E8E63007C2F3B /* PageModel.swift */; };
+		E318C4B02C4E8EC2007C2F3B /* PageData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E318C4AF2C4E8EC1007C2F3B /* PageData.swift */; };
 		E32EFB932C3AC4C9000686E2 /* Pinch_SwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E32EFB922C3AC4C9000686E2 /* Pinch_SwiftUIApp.swift */; };
 		E32EFB952C3AC4C9000686E2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E32EFB942C3AC4C9000686E2 /* ContentView.swift */; };
 		E32EFB972C3AC4CB000686E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E32EFB962C3AC4CB000686E2 /* Assets.xcassets */; };
 		E32EFB9A2C3AC4CB000686E2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E32EFB992C3AC4CB000686E2 /* Preview Assets.xcassets */; };
+		E35104B92C3C77830082C841 /* InfoPanelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E35104B82C3C77830082C841 /* InfoPanelView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E3099DFE2C4E0ECD00192477 /* ControlImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlImageView.swift; sourceTree = "<group>"; };
+		E318C4AD2C4E8E63007C2F3B /* PageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageModel.swift; sourceTree = "<group>"; };
+		E318C4AF2C4E8EC1007C2F3B /* PageData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageData.swift; sourceTree = "<group>"; };
 		E32EFB8F2C3AC4C9000686E2 /* Pinch-SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pinch-SwiftUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E32EFB922C3AC4C9000686E2 /* Pinch_SwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pinch_SwiftUIApp.swift; sourceTree = "<group>"; };
 		E32EFB942C3AC4C9000686E2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E32EFB962C3AC4CB000686E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E32EFB992C3AC4CB000686E2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E35104B82C3C77830082C841 /* InfoPanelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoPanelView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +89,8 @@
 		E32EFBA12C3AC776000686E2 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				E35104B82C3C77830082C841 /* InfoPanelView.swift */,
+				E3099DFE2C4E0ECD00192477 /* ControlImageView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -88,6 +98,7 @@
 		E32EFBA22C3AC78C000686E2 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				E318C4AD2C4E8E63007C2F3B /* PageModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -95,6 +106,7 @@
 		E32EFBA32C3AC794000686E2 /* Data */ = {
 			isa = PBXGroup;
 			children = (
+				E318C4AF2C4E8EC1007C2F3B /* PageData.swift */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -169,8 +181,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E3099DFF2C4E0ECD00192477 /* ControlImageView.swift in Sources */,
+				E318C4AE2C4E8E63007C2F3B /* PageModel.swift in Sources */,
 				E32EFB952C3AC4C9000686E2 /* ContentView.swift in Sources */,
 				E32EFB932C3AC4C9000686E2 /* Pinch_SwiftUIApp.swift in Sources */,
+				E318C4B02C4E8EC2007C2F3B /* PageData.swift in Sources */,
+				E35104B92C3C77830082C841 /* InfoPanelView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
